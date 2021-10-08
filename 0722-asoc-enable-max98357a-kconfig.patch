@@ -1,0 +1,12 @@
+@@ -0,0 +1,11 @@
+--- a/sound/soc/codecs/Kconfig
++++ b/sound/soc/codecs/Kconfig
+@@ -680,7 +680,7 @@
+ 	select REGMAP_SPI
+ 
+ config SND_SOC_PCM5102A
+-	tristate
++	tristate "TI PCM5102A CODEC"
+ 
+ config SND_SOC_PCM512x
+ 	tristate

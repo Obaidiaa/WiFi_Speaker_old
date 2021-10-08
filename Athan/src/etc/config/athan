@@ -1,0 +1,15 @@
+config Athan
+	option ifname 'lo'
+	option method 'Jafari'
+	option Longitude '39.1936'
+	option Latitude '21.4878'
+	option athanfile '/usr/sbin/athan/sound/athan.mp3'
+	option enabled '1'
+
+config Pray_select
+	option fajr '1'
+	option maghrib '1'
+	option asr '1'
+	option isha '1'
+	option dhuhr '1'
+
